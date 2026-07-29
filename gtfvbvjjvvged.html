@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>លំហាត់ទី២ - Form ចុះឈ្មោះ</title>
+</head>
+<body>
+  <p style="text-align: center; font-size: 24px; color: #333; font-family: 'Battambang', sans-serif;">សូមបំពេញព័ត៌មានខាងក្រោមដើម្បីចុះឈ្មោះធ្វើជាមនុស្សស្មោះ🤨😒</p>
+
+
+   <form action="index.html" method="GET">
+
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="KHMER">Cambodia</option>
+        <option value="US">United States</option>
+        <option value="CANADA">Canada</option>
+        <option value="SPAIN">Spain</option>
+        <option value="UK">United Kingdom</option>
+    </select><br><br>
+
+    <label for="job">Job:</label>
+    <select id="job" name="job">
+        <option value="engineer">Engineer</option>
+        <option value="doctor">Doctor</option>
+        <option value="teacher">Teacher</option>
+        <option value="artist">Artist</option>
+    </select><br><br>
+
+    <button type="submit">Register</button>
+
+</form>
